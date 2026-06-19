@@ -4,5 +4,6 @@
   "alwaysUpdateLinks": true,
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
-  "newFileLocation": "folder"
+  "newFileLocation": "folder",
+  "autoConvertHtml": true
 }

@@ -1,6 +1,6 @@
 {
   "locale": "zh",
-  "imagePathTemplate": "attachments",
+  "imagePathTemplate": "assets/{noteName}",
   "imagePathBase": "vault",
   "supportedExtensions": [
     "png",

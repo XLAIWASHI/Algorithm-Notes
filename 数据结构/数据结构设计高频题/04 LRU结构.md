@@ -18,7 +18,7 @@ LRU全称**最近最少使用(Least Recently Used)缓存**
 	通过这些最终实现了缓存的增、删、查操作尽可能接近O(1)时间复杂度
 
 思路：
-	![[Pasted image 20260206145159.png|500]]
+	![500](../../attachment/Pasted%20image%2020260206145159.png)
 	将节点的地址当作map的value；这样就能快速定位到节点
 	head是最早操作的，tail是最晚操作的
 	每次操作get或put都将当前操作的节点移动到tail后面，变成新的tail
@@ -30,10 +30,10 @@ LRU全称**最近最少使用(Least Recently Used)缓存**
 	还要有淘汰函数，淘汰头节点
 
 ## 代码
-![[Pasted image 20260206154852.png|500]]
-![[Pasted image 20260206154909.png]]
-![[Pasted image 20260206154924.png]]
-![[Pasted image 20260206154936.png]]
-![[Pasted image 20260206154951.png]]
-![[Pasted image 20260206155012.png]]
-![[Pasted image 20260206155035.png]]
+![500](../../attachment/Pasted%20image%2020260206154852.png)
+![Pasted image 20260206154909](../../attachment/Pasted%20image%2020260206154909.png)
+![Pasted image 20260206154924](../../attachment/Pasted%20image%2020260206154924.png)
+![Pasted image 20260206154936](../../attachment/Pasted%20image%2020260206154936.png)
+![Pasted image 20260206154951](../../attachment/Pasted%20image%2020260206154951.png)
+![Pasted image 20260206155012](../../attachment/Pasted%20image%2020260206155012.png)
+![Pasted image 20260206155035](../../attachment/Pasted%20image%2020260206155035.png)

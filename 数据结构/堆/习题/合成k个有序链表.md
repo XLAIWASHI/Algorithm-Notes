@@ -1,9 +1,9 @@
 
-![[Pasted image 20260125215210.png|450]]
+![450](../../../attachment/Pasted%20image%2020260125215210.png)
 
-![[Pasted image 20260125220034.png|500]]
+![500](../../../attachment/Pasted%20image%2020260125220034.png)
 我们可以用小根堆，把所有链表的头节点存入一个小根堆中，此时在堆顶的就是头节点中最小的；我们把他弹出再把他的下一个节点(如果有的话)加入堆中，此时堆又会调整好，再弹出，直到堆中没有数据；
 这样堆中的数据数量也就和链表条数相同
 ## 代码
-![[Pasted image 20260125223824.png]]
-![[Pasted image 20260125223844.png]]
+![Pasted image 20260125223824](../../../attachment/Pasted%20image%2020260125223824.png)
+![Pasted image 20260125223844](../../../attachment/Pasted%20image%2020260125223844.png)

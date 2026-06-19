@@ -1,14 +1,14 @@
 
-![[Pasted image 20260202152422.png|500]]
+![500](../../../attachment/Pasted%20image%2020260202152422.png)
 
 ## 解析
-![[Pasted image 20260202152609.png|500]]
+![500](../../../attachment/Pasted%20image%2020260202152609.png)
 k=3，所以是3个为一组，进行反转；如果不到k个，就原样返回；
-![[Pasted image 20260202155819.png|500]]
+![500](../../../attachment/Pasted%20image%2020260202155819.png)
 第一组会比较特殊，因为要考虑换头；
 将第一组反转后，需要将反转后的尾连接到下一组的头，要不然会丢失信息；
 然后将第二组反转，反转后需要将第一组的尾连接到反转后的头，这样才是正确的
 
 ## 代码
-![[Pasted image 20260202160740.png]]
-![[Pasted image 20260202160753.png]]
+![Pasted image 20260202160740](../../../attachment/Pasted%20image%2020260202160740.png)
+![Pasted image 20260202160753](../../../attachment/Pasted%20image%2020260202160753.png)
